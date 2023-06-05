@@ -20,6 +20,7 @@ public class Kiosk {
 				break;
 			case "3":
 				MenuTime.run();
+				break;
 			case "e":	
 				Cw.wn("장바구니에 담긴 상품 갯수:"+KioskObj.basket.size());
 				int sum = 0;
